@@ -1,0 +1,86 @@
+body{
+
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+background-color: white;
+border-bottom: 1px solid #e6e6e6;
+}
+
+.header-left {
+display: flex;
+align-items: center;
+}
+
+.header-left img {
+height: 30px;
+margin-right: 15px;
+}
+
+.search-bar {
+display: flex;
+align-items: center;
+border: 1px solid #dddddd;
+border-radius: 50px;
+padding: 5px 15px;
+width: 400px;
+}
+
+.search-bar span {
+margin: 0 10px;
+color: #888888;
+}
+
+.search-bar input {
+border: none;
+outline: none;
+font-size: 16px;
+color: #333333;
+}
+
+.search-bar button {
+background-color: #ff5a5f;
+border: none;
+border-radius: 50%;
+color: white;
+padding: 10px;
+cursor: pointer;
+margin-left: 10px;
+}
+
+.header-right {
+display: flex;
+align-items: center;
+}
+
+.header-right a {
+margin-right: 20px;
+text-decoration: none;
+color: #333333;
+font-size: 16px;
+}
+
+.header-right a:hover {
+text-decoration: underline;
+}
+
+.menu-icon {
+display: flex;
+align-items: center;
+border: 1px solid #dddddd;
+border-radius: 25px;
+padding: 5px 10px;
+cursor: pointer;
+}
+
+.menu-icon img {
+height: 20px;
+margin-right: 10px;
+}
